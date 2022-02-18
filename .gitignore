@@ -130,7 +130,6 @@ ta-lib/
 AlphaVantageAPI/
 
 # Data & NB Exclusions
-*.csv
 data/datas.csv
 data/f500.csv
 data/GLD_D_tv.csv
@@ -142,5 +141,9 @@ data/SPY_D_TV3.csv
 data/TV_5min.csv
 data/tulip.csv
 examples/*.csv
-jnb/*.ipynb
-jnb/*.txt
+jnb/*
+csv/*
+
+*.txt
+df_file
+/.vs/slnx.sqlite
